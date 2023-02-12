@@ -1,0 +1,73 @@
+.spacer1 {
+  flex: 1 1 auto;
+}
+h1{
+  color: blueviolet;
+}
+.login-icon{
+  margin-right: 10px;
+}
+#contents{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 50px 20px;
+}
+#dndkbutton:hover{
+  background-color: purple;
+}
+#dndkbutton:active{
+  background-color: rgb(212, 68, 212);
+}
+.TITLESANPHAM{
+  padding-top: 20px;
+  justify-content: center;
+  display: flex;
+}
+#addButton:hover{
+  background-color: rgb(15, 226, 226);
+}
+#addButton:active{
+  background-color: rgb(12, 147, 147);
+}
+.search-form {
+  min-width: 150px;
+  max-width: 500px;
+  height: 90%;
+  width: 100%;
+}
+.search-full-width {
+  width: 70%;
+  padding-left: 50px;
+}
+.dog-card {
+  max-width: 1000px;
+  width: 295px;
+  background-color: rgb(86, 26, 143);
+  height: 100%;
+}
+
+#nameacc{
+  padding-top: 5px ;
+}
+.example-header-image {
+  background-image: url('https://www.akc.org/wp-content/uploads/2017/11/Pembroke-Welsh-Corgi-standing-outdoors-in-the-fall.jpg');
+  background-size: cover;
+}
+#des{
+  font-size: large;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+
+}
+#addbtn_contain{
+  display: flex;
+  justify-content: center;
+}
+#addButton{
+  background-color: aliceblue;
+  color: purple;
+  font-size: 20 px;
+}
+
